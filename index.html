@@ -3,32 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Odin Project: Landing Page</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <span>Header Logo</span>
-        </div>
-        <div class="links">
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </div>
-    </header>
 
-    <div class="hero">
-        <div class="hero-text">
-            <h1 class="hero-main-text">This website is awesome</h1>
-            <p class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button class="hero-button">Sign up</button>
-        </div>
-        <div class="hero-image">
-            this is a placeholder for an image
-        </div>
-    </div><!-- .hero -->
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <span>Header Logo</span>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero">
+            <div class="hero-text">
+                <h1 class="hero-main-text">This website is awesome</h1>
+                <p class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="hero-button">Sign up</button>
+            </div>
+            <div class="hero-image">
+                this is a placeholder for an image
+            </div>
+        </div><!-- .hero -->
+    </div><!-- .hero-container -->
 
     <div class="content-container">
         <h2 class="information-header-text">Some random information.</h2>
@@ -60,8 +69,8 @@
 
     <div class="cta-container">
         <div class="cta-text">
-            <p>Call to action! It's time!</p>
-            <p>Sign up for our product by clicking that button right over there!</p>
+            <p class="cta-title">Call to action! It's time!</p>
+            <p class="cta-subtitle">Sign up for our product by clicking that button right over there!</p>
         </div>
         <button class="cta-button">Sign up</button>
     </div>
